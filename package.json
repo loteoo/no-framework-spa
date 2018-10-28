@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "no-framework-spa",
-  "description": "Plain, vanilla Javascript single page app with routing, templates and basic state management.",
+  "description": "Vanilla Javascript single page app with routing, components and basic state management.",
   "author": "Alexandre Lotte",
   "license": "MIT",
   "scripts": {
