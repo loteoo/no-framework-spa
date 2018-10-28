@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "no-framework-spa",
+  "description": "Plain, vanilla Javascript single page app with routing, templates and basic state management.",
+  "author": "Alexandre Lotte",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html --open",
+    "build": "env NODE_ENV=production parcel build ./src/index.html --no-source-maps --detailed-report"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
