@@ -1,7 +1,10 @@
 import {App} from './App'
 
 const init = (view, container) => {
-  container.innerHTML = view()
+  window.render = () => {
+    container.innerHTML = view()
+  }
+  render()
 }
 
 init(App, document.body)
