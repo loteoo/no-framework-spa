@@ -8,4 +8,3 @@ const init = (view, container) => {
 }
 
 init(App, document.body)
-
